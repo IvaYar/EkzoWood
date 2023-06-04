@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Hi+Melody&family=Roboto&family=Rubik+Iso&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #D09146;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+}
+
+.logoimg {
+    width:20%;
+}
+
+h1 {
+    font-family: 'Hi Melody', cursive;
+}
+
+.Phone {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40%;
+}
+
+.user {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.userimg {
+    width: 15%;
+    margin-right: 15px;
+}
+
+main {
+    background-color: #cecece;
+    background-image: url(images/back2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.conteiner {
+    background-color: #CECECE;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.baner {
+    background-image: url(images/desck3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 216px;
+}
+
+footer {
+    background-color: black;
+    padding:20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconimg {
+    width: 30%;
+    margin-right: 20px;
+}
